@@ -42,14 +42,14 @@ Ao inicializar um projeto, o WriterKit organiza o ambiente seguindo este padrão
 ## 🛠 O Pipeline de Produção
 
 1.  **`writerkit-init`**: Prepara a infraestrutura física e pastas.
-2.  **`writerkit-setup`**: Mapeia o "DNA" (comandos e cores) do template.
+2.  **`writerkit-setup`**: Mapeia comandos e cores do template, quando o usuário informar um.
 3.  **`writerkit-planning`**: Estrutura a pedagogia e o blueprint do capítulo.
-4.  **`drafting-content`**: Redige a prosa técnica (Tom Professoral).
+4.  **`drafting-content`**: Redige a prosa técnica.
 5.  **`developing-code`**: Implementa algoritmos com mapeamento `literate` (acentuação).
 6.  **`integrating-assets`**: Gera os TikZ e consolida os inputs no capítulo.
 7.  **`validating-references`**: Valida citações e bibliografia.
-8.  **`revising-clarity`**: Refina o rigor científico e fluidez.
-9.  **`publishing-book`**: Gera o pacote final pronto para o prelo.
+8.  **`revising-clarity`**: Refina o tom e a fluidez do texto.
+9.  **`publishing-book`**: Gera a versão final para ser usado no Overleaf ou Texpage.
 
 ---
 
@@ -145,7 +145,7 @@ When initializing a project, WriterKit organizes the environment as follows:
 1.  **`writerkit-init`**: Prepares the physical infrastructure and folders.
 2.  **`writerkit-setup`**: Maps the template “DNA” (commands and colors).
 3.  **`writerkit-planning`**: Structures pedagogy and chapter blueprint.
-4.  **`drafting-content`**: Writes technical prose (professorial tone).
+4.  **`drafting-content`**: Writes technical prose.
 5.  **`developing-code`**: Implements algorithms with `literate` mapping (accent support).
 6.  **`integrating-assets`**: Generates TikZ and consolidates chapter inputs.
 7.  **`validating-references`**: Validates citations and bibliography.
