@@ -1,0 +1,14 @@
+{
+  "tools": [
+    {
+      "name": "update_memory",
+      "description": "Updates the local project state in ./memory/memory.json",
+      "execute": "cat > ./memory/memory.json"
+    },
+    {
+      "name": "check_references",
+      "description": "Verifies the real-world existence of scientific articles",
+      "execute": "python3 /home/sekeff/.gemini/antigravity/skills/writerkit-init/scripts/reference_checker.py"
+    }
+  ]
+}

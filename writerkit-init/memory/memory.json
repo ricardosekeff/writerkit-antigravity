@@ -1,0 +1,16 @@
+{
+  "project": {
+    "title": "Ainda Não Definido",
+    "tone": "Pendente",
+    "language": "Pendente",
+    "code_language": "Pendente",
+    "bibliography_standard": "Pendente",
+    "status": "Ready for Setup",
+    "latex_template": "Pendente"
+  },
+  "latex_config": {
+    "listings_literate": ""
+  },
+  "chapters": [],
+  "decision_log": []
+}
